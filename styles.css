@@ -64,6 +64,20 @@ h1 { font-size:clamp(4rem, 9vw, 7.6rem); font-weight:600; letter-spacing:-.045em
 .hero h1 em { color:var(--gold-pale); font-style:italic; font-weight:500; }
 .hero-lede { max-width:680px; color:var(--muted); font-size:1.13rem; margin:26px 0 34px; }
 .button-row { display:flex; flex-wrap:wrap; gap:13px; }
+.preorder-callout {
+  max-width:680px; margin:-8px 0 26px; padding:16px 19px; display:grid; grid-template-columns:1fr auto; gap:2px 18px; align-items:center;
+  border:1px solid rgba(216,181,109,.5); border-radius:16px; text-decoration:none;
+  background:linear-gradient(110deg, rgba(216,181,109,.13), rgba(201,130,130,.08)); box-shadow:0 12px 34px rgba(0,0,0,.16);
+  transition:.2s ease;
+}
+.preorder-callout:hover { transform:translateY(-2px); border-color:var(--gold); box-shadow:0 16px 38px rgba(0,0,0,.24); }
+.preorder-kicker { grid-column:1 / -1; color:var(--gold); font-size:.68rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; }
+.preorder-callout strong { color:var(--gold-pale); font:600 1.65rem/1.1 "Cormorant Garamond",serif; }
+.preorder-arrow { color:var(--muted); font-size:.82rem; font-weight:600; }
+.series-emblem { width:min(420px,100%); }
+.series-emblem-title { text-align:center; color:var(--gold-pale); font:700 1.45rem/1 "Cormorant Garamond",serif; letter-spacing:.12em; padding:7px 4px 15px; }
+.series-emblem .tarot-caption { font-size:.82rem; letter-spacing:.13em; color:var(--gold); }
+
 .button { display:inline-flex; align-items:center; justify-content:center; text-decoration:none; border-radius:999px; padding:13px 20px; font-weight:700; border:1px solid var(--gold); transition:.2s ease; }
 .button.primary { background:var(--gold); color:#1b1420; }
 .button.secondary { color:var(--gold-pale); background:rgba(255,255,255,.025); }
@@ -156,6 +170,8 @@ h1 { font-size:clamp(4rem, 9vw, 7.6rem); font-weight:600; letter-spacing:-.045em
   .brand strong { font-size:1.35rem; }
   h1 { font-size:3.55rem; }
   .hero { padding-top:48px; }
+  .preorder-callout { grid-template-columns:1fr; }
+  .preorder-arrow { margin-top:5px; }
   .section { padding:70px 0; }
   .book-grid,.future-grid { grid-template-columns:1fr; }
   .book-feature { grid-template-columns:1fr; padding:20px; }
