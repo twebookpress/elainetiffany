@@ -17,7 +17,7 @@ A static GitHub Pages-ready website for Elaine Tiffany.
 - `books.html` — Black Cats and Magic series page
 - `about.html` — author bio page
 - `styles.css` — site styling
-- `assets/images/` — author image and public book covers used on the site
+- `assets/images/` — author image and optimized public book covers used on the site
 - `assets/favicon.svg` — browser icon
 
-Book Six's supplied cover is intentionally not included in the public site package because Books Six and Seven are being kept to title/mention-only teasers.
+Book Six is featured as a preorder. Book Seven remains unrevealed.

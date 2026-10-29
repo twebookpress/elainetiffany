@@ -130,6 +130,7 @@ h1 { font-size:clamp(4rem, 9vw, 7.6rem); font-weight:600; letter-spacing:-.045em
 .book-feature .button { margin-top:8px; }
 
 .future-grid { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:38px; }
+.future-grid-single { grid-template-columns:1fr; }
 .future-card { min-height:330px; border:1px solid var(--line); border-radius:24px; padding:38px; display:flex; flex-direction:column; justify-content:flex-end; background:
   linear-gradient(to top, rgba(16,13,26,.96), rgba(26,19,41,.74)),
   repeating-linear-gradient(45deg, transparent 0 24px, rgba(216,181,109,.04) 24px 25px);
